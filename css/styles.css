@@ -11317,7 +11317,21 @@ html {
   50%  { transform: translate(0, 15px); }
   100%   { transform: translate(0, -0px); }    
 }
-
+.char1, .char2, .char3, .char4 {
+  width: 23%;
+}
+.char1 {
+  transform: rotate(8deg);
+}
+.char2 {
+  transform: rotate(-5deg);
+}
+.char3 {
+  transform: rotate(6deg);
+}
+.char4 {
+  transform: rotate(-7deg);
+}
 
 @media (max-width: 576px) {
   .fud {
