@@ -514,7 +514,20 @@ progress {
     font-size: 4.5rem;
   }
 }
-
+.famousFam {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.char {
+  width: 22%;
+}
+.charInner {
+  width: 100%;
+}
+.famousFam {
+  font-size: 14px;
+}
 .display-3 {
   font-size: calc(1.525rem + 3.3vw);
   font-weight: 300;
@@ -10889,8 +10902,15 @@ html {
 }
 .guarantee100 {
   position: absolute;
-  top: 190px;
+  top: 25%;
+  right: 25%;
   width: 120px;
+}
+.guarantee {
+  position: absolute;
+  right: 15%;
+  top: 20%;
+  width: 80px !important;
 }
 .notepad {
   width: 600px;
@@ -11114,6 +11134,7 @@ html {
   padding: 30px;
 }
 
+
 .stickySC {
   position: fixed;
   z-index: 1;
@@ -11198,6 +11219,10 @@ html {
   max-width: 1200px;
   z-index: 100;
   margin: 0 auto;
+  font-family: 'Courier New', Courier, monospace !important;
+}
+.title-bar {
+  font-family: 'Courier New', Courier, monospace !important;
 }
 .progress-name {
   width: 70px;
@@ -11364,6 +11389,9 @@ html {
 }
 
 @media (max-width: 576px) {
+  .famousFam {
+    flex-direction: column;
+  }
   .fud {
     display: none;
   }
@@ -11430,6 +11458,9 @@ html {
     width: 66px;
 
   }
+  .guarantee100 {
+    width: 45px !important;
+  }
   .anim1 {
     width: 100px;
 
@@ -11450,24 +11481,36 @@ html {
     width: 100px;
 
   }
+  .middle-section {
+    font-size: 16px;
+  }
+  .famousFam {
+    margin-top: 40px;
+  }
   .memes-container {
     width: 320px;
     margin: 0 auto;
   }
   .char1, .char2, .char3, .char4 {
-    width: 20%;
+    width: 150px;
+  }
+  .char {
+    margin-bottom: 15px;
   }
   .progress-name {
     width: 40px;
   }
+  .window {
+    width: 320px;
+  }
   .window-body {
-    width: 350px;
+    width: 300px;
   }
   .progress-wrap {
-    width: 350px;
+    width: 300px;
   }
   .progress-image {
-    width: 240px;
+    width: 185px;
   }
   .money {
     left: unset;
