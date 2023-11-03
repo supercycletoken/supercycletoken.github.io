@@ -11302,6 +11302,34 @@ html {
   transform: rotate(-5deg);
 }
 
+.colsc-4 img:nth-child(2){
+  scale: 1.2;
+  transform: rotate(5deg);
+}
+.colsc-4 img:nth-child(3){
+  scale: 1.1;
+  transform: rotate(-5deg);
+}
+.colsc-4 img:nth-child(4){
+  scale: 1.05;
+  transform: rotate(3deg);
+}
+.colsc-4 img:nth-child(1){
+  scale: 1.1;
+  transform: rotate(7deg);
+}
+.colsc-4 img:nth-child(4){
+  scale: 1.05;
+  transform: rotate(2deg);
+}
+.colsc-4 img:nth-child(6){
+  scale: 1.04;
+  transform: rotate(3deg);
+}
+.colsc-4 img:nth-child(7){
+  scale: 1.07;
+  transform: rotate(-5deg);
+}
 
 .floating {  
   animation-name: floating;
@@ -11381,7 +11409,7 @@ html {
 
   }
   .audioSC {
-    width: 66px;
+    width: 220px;
 
   }
   .bob {
@@ -11454,6 +11482,7 @@ html {
     font-size: 14px;
     line-height: 18px;
     padding: 0 40px;
+    padding-top: 30px !important;
   }
 }
 
