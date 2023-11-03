@@ -11450,6 +11450,10 @@ html {
     width: 100px;
 
   }
+  .memes-container {
+    width: 320px;
+    margin: 0 auto;
+  }
   .char1, .char2, .char3, .char4 {
     width: 20%;
   }
