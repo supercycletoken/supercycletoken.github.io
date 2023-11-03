@@ -527,7 +527,7 @@ progress {
   width: 100%;
 }
 .famousFam {
-  font-size: 14px;
+  font-size: 16px;
 }
 .display-3 {
   font-size: calc(1.525rem + 3.3vw);
@@ -11441,7 +11441,6 @@ html {
   }
   .audioSC {
     width: 220px;
-
   }
   .bob {
     width: 70px;
@@ -11483,7 +11482,7 @@ html {
 
   }
   .middle-section {
-    font-size: 16px;
+    font-size: 20px;
   }
   .famousFam {
     margin-top: 40px;
