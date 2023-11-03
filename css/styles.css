@@ -518,6 +518,7 @@ progress {
   display: flex;
   align-items: center;
   justify-content: center;
+  color: #49ff49;
 }
 .char {
   width: 22%;
@@ -11486,6 +11487,7 @@ html {
   }
   .famousFam {
     margin-top: 40px;
+    
   }
   .memes-container {
     width: 320px;
