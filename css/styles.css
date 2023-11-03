@@ -10953,7 +10953,7 @@ html {
   display: block;
   left: 50%;
   transform: translate(-50%,0);
-  padding-top: 90px !important;
+  padding-top: 120px !important;
 }
 
 @-webkit-keyframes ticker {
@@ -11123,12 +11123,12 @@ html {
 .audioSC {
   bottom:85px;
   left: 50px;
-  width: 60px;
+  z-index: 200;
 }
 
 .bob {
   bottom: 50px;
-  left: 150px;
+  left: 25%;
   width: 90px;
 }
 
@@ -11333,7 +11333,7 @@ html {
 
   }
   .notepad {
-    width: 350px;
+    width: 400px;
   }
   .caroline {
     width: 60px;
@@ -11431,9 +11431,9 @@ html {
     bottom: 25px;
   }
   .innernotepad {
-    font-size: 16px;
+    font-size: 14px;
     line-height: 18px;
-    padding: 0 20px;
+    padding: 0 40px;
   }
 }
 
