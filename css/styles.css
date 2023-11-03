@@ -11420,6 +11420,12 @@ html {
     width: 100px;
 
   }
+  .char1, .char2, .char3, .char4 {
+    width: 20%;
+  }
+  .progress-name {
+    width: 40px;
+  }
   .window-body {
     width: 350px;
   }
