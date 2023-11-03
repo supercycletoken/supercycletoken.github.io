@@ -10871,6 +10871,8 @@ html {
   position: absolute;
   right: 20px;
   top: 20px;
+  z-index: 9999999;
+  display: block;
 }
 .windows-btn {
   background-image: url("./../assets/BTNBG.png");
@@ -10887,7 +10889,7 @@ html {
 }
 .guarantee100 {
   position: absolute;
-  top: 130px;
+  top: 190px;
   width: 120px;
 }
 .notepad {
@@ -11470,6 +11472,8 @@ html {
   .windows-btn {
     width: 90px;
     height: 24px;
+    z-index: 9999;
+    display: block;
   }
   .floating {
     margin-left: 0 !important;
